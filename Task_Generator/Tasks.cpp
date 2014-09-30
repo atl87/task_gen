@@ -19,7 +19,7 @@ real_time_taskset *print_task(real_time_taskset *taskset)
         while(sort_help1)
         {
             real_time_taskset *sort_help2=sort_help1->next_task;
-            while(sort_help2)
+            while(sort_help2) 
             {
                 if(sort_help1->deadline > sort_help2->deadline)
                 {
